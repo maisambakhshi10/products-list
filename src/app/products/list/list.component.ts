@@ -13,6 +13,7 @@ export class ListComponent implements OnInit {
   currentPage = 1;
   pageSize = 10;
 
+
   constructor(private productService: ProductService) { }
 
   ngOnInit(): void {
