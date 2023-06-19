@@ -7,6 +7,8 @@ import { NavComponent } from './nav/nav.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductModule } from './products/products.module';
 
+import { NgxPaginationModule } from 'ngx-pagination';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,8 @@ import { ProductModule } from './products/products.module';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ProductModule
+    ProductModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

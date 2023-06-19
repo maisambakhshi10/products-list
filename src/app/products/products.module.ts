@@ -4,6 +4,8 @@ import { ListComponent } from './list/list.component';
 import { DetailComponent } from './detail/detail.component';
 import { RouterModule } from '@angular/router';
 
+import { NgxPaginationModule } from 'ngx-pagination';
+
 @NgModule({
     declarations: [
         ListComponent,
@@ -11,7 +13,8 @@ import { RouterModule } from '@angular/router';
     ],
     imports: [
         CommonModule,
-        RouterModule
+        RouterModule,
+        NgxPaginationModule
     ],
     exports: [
         ListComponent,
